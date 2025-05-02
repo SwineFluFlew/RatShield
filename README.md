@@ -4,7 +4,7 @@
 
 ---
 
-##  Features
+## Features
 
 - **Custom Keyword Filters**: Define your own list of spam indicators (e.g., `Token Alert`, `Quick Buy`, `GemPump`).
 - **Match Threshold**: Only hide tweets that match a configured number of keywords.
@@ -14,13 +14,13 @@
 
 ---
 
-##  Download
+## Download
 
 You can skip cloning and just [**download the latest 🐀 release as a ZIP**](https://github.com/SwineFluFlew/RatShield/archive/refs/heads/main.zip).
 
 ---
 
-##  Load Extension from ZIP
+## Load Extension from ZIP
 
 1. Download the ZIP file from the link above.
 2. Extract the contents using your file manager (Right-click → “Extract All” or “Unzip”).
@@ -35,8 +35,8 @@ You can skip cloning and just [**download the latest 🐀 release as a ZIP**](ht
 
 ## Usage
 
-1. Click the **RatShield** icon in your browser toolbar.  
-2. **Configure Keywords**: Enter a comma-separated list of terms to filter.  
-3. **Set Threshold**: Choose how many keyword matches trigger hiding a post.  
-4. **Enable Search-Only** (optional): Only filter on `/search?q=` pages for Solana/Ethereum addresses or `$TICKER` queries.  
+1. Click the **RatShield** icon in your browser toolbar.
+2. **Configure Keywords**: Enter a comma-separated list of terms to filter.
+3. **Set Threshold**: Choose how many keyword matches trigger hiding a post.
+4. **Enable Search-Only** (optional): Only filter on `/search?q=` pages for Solana/Ethereum addresses or `$TICKER` queries.
 5. Click **Save Settings** — your changes take effect immediately.

@@ -20,12 +20,7 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://twitter.com/*",
-        "*://www.twitter.com/*",
-        "*://x.com/*",
-        "*://www.x.com/*"
-      ],
+      "matches": ["*://twitter.com/*", "*://www.twitter.com/*", "*://x.com/*", "*://www.x.com/*"],
       "js": ["config.js", "content.js"],
       "run_at": "document_idle"
     }
