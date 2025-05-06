@@ -53,3 +53,10 @@ You can skip cloning and just [**download the latest 🐀 release as a ZIP**](ht
 ## IMPORTANT
 
 - I've only ever tested this on Microsoft Edge. No idea if it'll work properly on chrome.
+
+# RatShield ON (spam hidden)
+![image](https://github.com/user-attachments/assets/e9d29a0e-6b90-4e0d-8a45-c0c59be88819)
+
+# RatShield OFF (rat ass spam visible)
+![image](https://github.com/user-attachments/assets/46549c57-3cd7-4986-9c4d-e65af0f7e8f0)
+
