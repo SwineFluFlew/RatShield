@@ -1,3 +1,8 @@
+
+<div align="center" style="padding-bottom: 20px;">
+  <img src="icon.png" alt="RatShield Logo" width="300" height="300">
+</div>
+
 # 🐀 RatShield: Crypto Filter
 
 **RatShield** is a browser extension for Microsoft Edge and Chromium browsers that automatically hides spammy token-alert and memecoin posts on X.com and Twitter using customizable keyword filters.
