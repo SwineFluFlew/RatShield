@@ -7,27 +7,50 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="icon48.png" alt="RatShield Logo" class="logo" />
-    <h3>RatShield: Crypto Filter</h3>
+    <div class="popup-content">
+      <img src="icon48.png" alt="RatShield Logo" class="logo" />
+      <h3>RatShield: Crypto Filter</h3>
+      <div class="toggle-group">
+        <label class="switch">
+          <input type="checkbox" id="enableToggle" title="Enable or disable RatShield" />
+          <span class="slider round"></span>
+        </label>
+        <span class="toggle-label" id="enableLabel">RatShield: ON</span>
+      </div>
 
-    <div class="form-group">
-      <label for="keywords">Keywords (comma-separated):</label>
-      <textarea id="keywords" rows="4" placeholder="e.g. token alert, quick buy"></textarea>
+      <div class="form-group">
+        <label for="keywords">Keywords (comma-separated):</label>
+        <textarea id="keywords" rows="4" placeholder="e.g. token alert, quick buy"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="threshold">Match Threshold:</label>
+        <input type="number" id="threshold" min="2" max="20" placeholder="e.g. 2" />
+      </div>
+
+      <div class="form-group">
+        <label for="whitelist">Allowed accounts (one per line, usernames only):</label>
+        <textarea id="whitelist" rows="3" placeholder="e.g. friend123"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="blacklist">Blocked accounts (one per line):</label>
+        <textarea id="blacklist" rows="3" placeholder="e.g. spammer_bot"></textarea>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox" id="filterSearchOnly" />
+        <label for="filterSearchOnly">Only filter when searching</label>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="filterAutomated" />
+        <label for="filterAutomated">Filter out “Automated 🤖”</label>
+      </div>
     </div>
-
-    <div class="form-group">
-      <label for="threshold">Match Threshold:</label>
-      <input type="number" id="threshold" min="1" max="20" placeholder="e.g. 2" />
+    <div class="footer">
+      <div id="status" class="status"></div>
+      <button id="save">Save Settings</button>
     </div>
-
-    <div class="checkbox-group">
-      <input type="checkbox" id="filterSearchOnly" />
-      <label for="filterSearchOnly">Only filter on search pages</label>
-    </div>
-
-    <button id="save">Save Settings</button>
-    <div id="status" class="status">ss</div>
-
     <script src="config.js"></script>
     <script src="popup.js" defer></script>
   </body>
