@@ -49,3 +49,7 @@ You can skip cloning and just [**download the latest 🐀 release as a ZIP**](ht
 6. **Enable Search-Only** (optional): Only filter on `/search?q=` pages for Solana/Ethereum addresses or `$TICKER` queries.
 7. **Filter Automated Accounts**: Toggle to hide posts from accounts marked as "Automated 🤖".
 8. Click **Save Settings** — your changes take effect immediately.
+
+## IMPORTANT
+
+- I've only ever tested this on Microsoft Edge. No idea if it'll work properly on chrome.
