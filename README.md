@@ -35,7 +35,7 @@ You can skip cloning and just [**download the latest 🐀 release as a ZIP**](ht
    - or `chrome://extensions/` (Google Chrome)
 4. Enable **Developer mode** using the toggle in the top-right.
 5. Click **Load unpacked**.
-6. Select the folder you just unzipped (`RatShield-main/`).
+6. Select the folder you just unzipped (e.g. `ratshield-v1.0.0/`).
 
 > You should now see the RatShield icon in your toolbar.
 
