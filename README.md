@@ -22,7 +22,7 @@
 
 ## Download
 
-You can skip cloning and just [**download the latest 🐀 release as a ZIP**](https://github.com/SwineFluFlew/RatShield/archive/refs/heads/main.zip).
+You can skip cloning and just [**download the latest 🐀 release as a ZIP**](https://github.com/SwineFluFlew/RatShield/releases/latest).
 
 ---
 
