@@ -5,7 +5,6 @@ const DEFAULT_KEYWORDS = [
   'gmgn.ai',
   '24h change',
   'wallet',
-  'pump',
   'signal',
   'gempump',
   't.me/',
@@ -46,7 +45,17 @@ const DEFAULT_KEYWORDS = [
   'smart wallets bought',
   'smart wallets sold',
   'signal powered by',
-  'users analytics'
+  'users analytics',
+  ' hype score', 
+  'follow me', 
+  'alpha group',
+  'join the tg', 
+  'entered trending', 
+  'vip tg', 
+  'trading platform', 
+  '24h volume', 
+  'overall score', 
+  'vip alert'
 ];
 
 const DEFAULT_THRESHOLD = 2;
